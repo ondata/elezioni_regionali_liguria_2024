@@ -4,7 +4,9 @@
 
 ## Se usi questi dati
 
-Questi dati sono rilasciati con licenza [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.it). Se usi questi dati, citaci come segue:
+Questi dati sono rilasciati con licenza [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.it). Sei libero di condividere, modificare e utilizzare questi dati per qualsiasi scopo, anche commerciale, a **condizione di citare la fonte**.
+
+Fallo in questo modo:
 
 > Dati resi disponibili dall'[associazione onData](https://github.com/ondata/elezioni_regionali_liguria_2024). Fonte: Ministero dell'Interno
 
