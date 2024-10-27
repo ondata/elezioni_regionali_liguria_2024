@@ -1,6 +1,16 @@
+<a href="https://datibenecomune.substack.com/about"><img src="https://img.shields.io/badge/%F0%9F%99%8F-%23datiBeneComune-%23cc3232"/></a>
+
 # Dati elezioni regionali in Liguria 2024
 
-## Affluenza
+## Se usi questi dati
+
+Questi dati sono rilasciati con licenza [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.it). Se usi questi dati, citaci come segue:
+
+> Dati resi disponibili dall'[associazione onData](https://github.com/ondata/elezioni_regionali_liguria_2024). Fonte: Ministero dell'Interno
+
+## Dati
+
+### Affluenza
 
 I dati sull'affluenza sono raccolti nel file [`affluenza_comuni.csv`](dati/affluenza_comuni.csv)
 
