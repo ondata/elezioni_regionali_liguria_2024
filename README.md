@@ -1,4 +1,6 @@
-<a href="https://datibenecomune.substack.com/about"><img src="https://img.shields.io/badge/%F0%9F%99%8F-%23datiBeneComune-%23cc3232"/></a>
+<a href="https://ondata.substack.com/"><img src="https://img.shields.io/badge/%F0%9F%93%9A-onData%20newsletter-3794ff" alt="onData newsletter"/></a> <a href="https://datibenecomune.substack.com/about"><img src="https://img.shields.io/badge/%F0%9F%99%8F-%23datiBeneComune-%23cc3232"/></a>
+
+
 
 # Dati elezioni regionali in Liguria 2024
 
