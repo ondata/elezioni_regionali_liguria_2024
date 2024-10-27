@@ -50,6 +50,8 @@ mlr --jsonl cut -f minint_elettorale,com_istat_code "${folder}"/../riferimenti/c
 # fai join per aggiungere com_istat_code
 mlr --jsonl join --ul -j minint_elettorale -f "${folder}"/../dati/affluenza_comuni.jsonl then unsparsify then put '$percentuale_votanti=sub($percentuale_votanti,",",".");$percentuale_tornata_precedente=sub(string($percentuale_tornata_precedente),",",".")' "${folder}"/tmp/comuni_07_minint.jsonl >"${folder}"/tmp/affluenza_comuni.jsonl
 
+sed -i -r 's/####+//g' "${folder}"/tmp/affluenza_comuni.jsonl
+
 mv "${folder}"/tmp/affluenza_comuni.jsonl "${folder}"/../dati/affluenza_comuni.jsonl
 
 mlr --ijsonl --ocsv cat "${folder}"/../dati/affluenza_comuni.jsonl >"${folder}"/../dati/affluenza_comuni.csv
