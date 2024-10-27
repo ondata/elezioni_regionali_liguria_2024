@@ -2,6 +2,9 @@
 
 # Dati elezioni regionali in Liguria 2024
 
+Li estraiamo perché su [Eligendo](https://elezioni.interno.gov.it/risultati/20241027/regionali/votanti/italia/07), il sito ufficiale del Ministero dell'Interno, non è possibile scaricare in un click un singolo dataset con i dati di dettaglio, ma è necessario fare diversi export. Inoltre nei CSV esportati ci sono delle problematicità che abbiamo descritto [qui](https://x.com/ondatait/status/1850497807481721189).
+
+
 ## Se usi questi dati
 
 Questi dati sono rilasciati con licenza [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.it). Sei libero di condividere, modificare e utilizzare questi dati per qualsiasi scopo, anche commerciale, a **condizione di citare la fonte**.
