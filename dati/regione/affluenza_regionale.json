@@ -1,0 +1,295 @@
+{
+  "int": {
+    "st": "ESERCIZIO",
+    "c_ele": 7,
+    "t_ele": "Regionali Speciali",
+    "f_elet": "VOTANTI",
+    "dt_ele": 20241027000000,
+    "l_terr": "REGIONE",
+    "area": "I",
+    "dt_agg": 20241027125625
+  },
+  "note": [
+    "La percentuale riportata nella colonna della precedente elezione è sempre riferita a tutte le sezioni del comune."
+  ],
+  "enti": {
+    "ente_p": {
+      "desc": "LIGURIA",
+      "cod": 7,
+      "ele_m": 642767,
+      "ele_f": 698921,
+      "ele_t": 1341688,
+      "com": [
+        {
+          "cod_reg": 7,
+          "com_att": 1,
+          "num_com": 4
+        }
+      ],
+      "com_vot": [
+        {
+          "com": 1,
+          "dt_com": 20241027120000,
+          "enti_p": 1785,
+          "enti_t": 1785,
+          "perc": "13,06",
+          "vot_m": 0,
+          "vot_f": 0,
+          "vot_t": 175174,
+          "perc_r": "13,96"
+        },
+        {
+          "com": 2,
+          "dt_com": 20241027190000,
+          "enti_p": 0,
+          "enti_t": 1785,
+          "perc": "0",
+          "vot_m": 0,
+          "vot_f": 0,
+          "vot_t": 0,
+          "perc_r": "0"
+        },
+        {
+          "com": 3,
+          "dt_com": 20241027230000,
+          "enti_p": 0,
+          "enti_t": 1785,
+          "perc": "0",
+          "vot_m": 0,
+          "vot_f": 0,
+          "vot_t": 0,
+          "perc_r": "0"
+        },
+        {
+          "com": 4,
+          "dt_com": 20241028150000,
+          "enti_p": 0,
+          "enti_t": 1785,
+          "perc": "0",
+          "vot_m": 0,
+          "vot_f": 0,
+          "vot_t": 0,
+          "perc_r": "0"
+        }
+      ]
+    },
+    "enti_f": [
+      {
+        "tipo": "PROVINCIA",
+        "desc": "GENOVA",
+        "cod": 34,
+        "ele_m": 348485,
+        "ele_f": 383526,
+        "ele_t": 732011,
+        "com_vot": [
+          {
+            "com": 1,
+            "dt_com": 20241027120000,
+            "enti_p": 964,
+            "enti_t": 964,
+            "perc": "14,29",
+            "vot_m": 0,
+            "vot_f": 0,
+            "vot_t": 104572,
+            "perc_r": "14,19"
+          },
+          {
+            "com": 2,
+            "dt_com": 20241027190000,
+            "enti_p": 0,
+            "enti_t": 964,
+            "perc": "0",
+            "vot_m": 0,
+            "vot_f": 0,
+            "vot_t": 0,
+            "perc_r": "0"
+          },
+          {
+            "com": 3,
+            "dt_com": 20241027230000,
+            "enti_p": 0,
+            "enti_t": 964,
+            "perc": "0",
+            "vot_m": 0,
+            "vot_f": 0,
+            "vot_t": 0,
+            "perc_r": "0"
+          },
+          {
+            "com": 4,
+            "dt_com": 20241028150000,
+            "enti_p": 0,
+            "enti_t": 964,
+            "perc": "0",
+            "vot_m": 0,
+            "vot_f": 0,
+            "vot_t": 0,
+            "perc_r": "0"
+          }
+        ]
+      },
+      {
+        "tipo": "PROVINCIA",
+        "desc": "IMPERIA",
+        "cod": 37,
+        "ele_m": 86887,
+        "ele_f": 92121,
+        "ele_t": 179008,
+        "com_vot": [
+          {
+            "com": 1,
+            "dt_com": 20241027120000,
+            "enti_p": 255,
+            "enti_t": 255,
+            "perc": "10,31",
+            "vot_m": 0,
+            "vot_f": 0,
+            "vot_t": 18464,
+            "perc_r": "12,97"
+          },
+          {
+            "com": 2,
+            "dt_com": 20241027190000,
+            "enti_p": 0,
+            "enti_t": 255,
+            "perc": "0",
+            "vot_m": 0,
+            "vot_f": 0,
+            "vot_t": 0,
+            "perc_r": "0"
+          },
+          {
+            "com": 3,
+            "dt_com": 20241027230000,
+            "enti_p": 0,
+            "enti_t": 255,
+            "perc": "0",
+            "vot_m": 0,
+            "vot_f": 0,
+            "vot_t": 0,
+            "perc_r": "0"
+          },
+          {
+            "com": 4,
+            "dt_com": 20241028150000,
+            "enti_p": 0,
+            "enti_t": 255,
+            "perc": "0",
+            "vot_m": 0,
+            "vot_f": 0,
+            "vot_t": 0,
+            "perc_r": "0"
+          }
+        ]
+      },
+      {
+        "tipo": "PROVINCIA",
+        "desc": "LA SPEZIA",
+        "cod": 39,
+        "ele_m": 90386,
+        "ele_f": 96415,
+        "ele_t": 186801,
+        "com_vot": [
+          {
+            "com": 1,
+            "dt_com": 20241027120000,
+            "enti_p": 258,
+            "enti_t": 258,
+            "perc": "11,94",
+            "vot_m": 0,
+            "vot_f": 0,
+            "vot_t": 22312,
+            "perc_r": "13,08"
+          },
+          {
+            "com": 2,
+            "dt_com": 20241027190000,
+            "enti_p": 0,
+            "enti_t": 258,
+            "perc": "0",
+            "vot_m": 0,
+            "vot_f": 0,
+            "vot_t": 0,
+            "perc_r": "0"
+          },
+          {
+            "com": 3,
+            "dt_com": 20241027230000,
+            "enti_p": 0,
+            "enti_t": 258,
+            "perc": "0",
+            "vot_m": 0,
+            "vot_f": 0,
+            "vot_t": 0,
+            "perc_r": "0"
+          },
+          {
+            "com": 4,
+            "dt_com": 20241028150000,
+            "enti_p": 0,
+            "enti_t": 258,
+            "perc": "0",
+            "vot_m": 0,
+            "vot_f": 0,
+            "vot_t": 0,
+            "perc_r": "0"
+          }
+        ]
+      },
+      {
+        "tipo": "PROVINCIA",
+        "desc": "SAVONA",
+        "cod": 74,
+        "ele_m": 117009,
+        "ele_f": 126859,
+        "ele_t": 243868,
+        "com_vot": [
+          {
+            "com": 1,
+            "dt_com": 20241027120000,
+            "enti_p": 308,
+            "enti_t": 308,
+            "perc": "12,23",
+            "vot_m": 0,
+            "vot_f": 0,
+            "vot_t": 29826,
+            "perc_r": "14,67"
+          },
+          {
+            "com": 2,
+            "dt_com": 20241027190000,
+            "enti_p": 0,
+            "enti_t": 308,
+            "perc": "0",
+            "vot_m": 0,
+            "vot_f": 0,
+            "vot_t": 0,
+            "perc_r": "0"
+          },
+          {
+            "com": 3,
+            "dt_com": 20241027230000,
+            "enti_p": 0,
+            "enti_t": 308,
+            "perc": "0",
+            "vot_m": 0,
+            "vot_f": 0,
+            "vot_t": 0,
+            "perc_r": "0"
+          },
+          {
+            "com": 4,
+            "dt_com": 20241028150000,
+            "enti_p": 0,
+            "enti_t": 308,
+            "perc": "0",
+            "vot_m": 0,
+            "vot_f": 0,
+            "vot_t": 0,
+            "perc_r": "0"
+          }
+        ]
+      }
+    ]
+  }
+}
