@@ -7,7 +7,7 @@
     "dt_ele": 20241027000000,
     "l_terr": "REGIONE",
     "area": "I",
-    "dt_agg": 20241027192244
+    "dt_agg": 20241027200708
   },
   "note": [
     "La percentuale riportata nella colonna della precedente elezione è sempre riferita a tutte le sezioni del comune."
@@ -41,13 +41,13 @@
         {
           "com": 2,
           "dt_com": 20241027190000,
-          "enti_p": 1692,
+          "enti_p": 1785,
           "enti_t": 1785,
-          "perc": "30,72",
+          "perc": "30,60",
           "vot_m": 0,
           "vot_f": 0,
-          "vot_t": 389768,
-          "perc_r": "32,06"
+          "vot_t": 410519,
+          "perc_r": "32,07"
         },
         {
           "com": 3,
@@ -96,13 +96,13 @@
           {
             "com": 2,
             "dt_com": 20241027190000,
-            "enti_p": 891,
+            "enti_p": 964,
             "enti_t": 964,
-            "perc": "33,15",
+            "perc": "32,96",
             "vot_m": 0,
             "vot_f": 0,
-            "vot_t": 223456,
-            "perc_r": "32,33"
+            "vot_t": 241246,
+            "perc_r": "32,32"
           },
           {
             "com": 3,
@@ -150,13 +150,13 @@
           {
             "com": 2,
             "dt_com": 20241027190000,
-            "enti_p": 250,
+            "enti_p": 255,
             "enti_t": 255,
-            "perc": "24,23",
+            "perc": "24,22",
             "vot_m": 0,
             "vot_f": 0,
-            "vot_t": 42527,
-            "perc_r": "30,07"
+            "vot_t": 43354,
+            "perc_r": "30,17"
           },
           {
             "com": 3,
@@ -258,13 +258,13 @@
           {
             "com": 2,
             "dt_com": 20241027190000,
-            "enti_p": 293,
+            "enti_p": 308,
             "enti_t": 308,
-            "perc": "28,47",
+            "perc": "27,99",
             "vot_m": 0,
             "vot_f": 0,
-            "vot_t": 66124,
-            "perc_r": "33,47"
+            "vot_t": 68258,
+            "perc_r": "33,44"
           },
           {
             "com": 3,
