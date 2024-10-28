@@ -1,0 +1,297 @@
+{
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "profile": "tabular-data-resource",
+      "name": "main",
+      "flatterer_name": "main",
+      "title": "main",
+      "schema": {
+        "fields": [
+          {
+            "name": "_link",
+            "title": "_link",
+            "type": "string",
+            "format": "string",
+            "count": 234
+          },
+          {
+            "name": "note",
+            "title": "note",
+            "type": "boolean",
+            "format": "boolean",
+            "count": 234
+          },
+          {
+            "name": "int_st",
+            "title": "int_st",
+            "type": "string",
+            "format": "string",
+            "count": 234
+          },
+          {
+            "name": "int_t_ele",
+            "title": "int_t_ele",
+            "type": "string",
+            "format": "string",
+            "count": 234
+          },
+          {
+            "name": "int_f_elet",
+            "title": "int_f_elet",
+            "type": "string",
+            "format": "string",
+            "count": 234
+          },
+          {
+            "name": "int_dt_ele",
+            "title": "int_dt_ele",
+            "type": "number",
+            "format": "number",
+            "count": 234
+          },
+          {
+            "name": "int_l_terr",
+            "title": "int_l_terr",
+            "type": "string",
+            "format": "string",
+            "count": 234
+          },
+          {
+            "name": "int_area",
+            "title": "int_area",
+            "type": "string",
+            "format": "string",
+            "count": 234
+          },
+          {
+            "name": "int_desc_reg",
+            "title": "int_desc_reg",
+            "type": "string",
+            "format": "string",
+            "count": 234
+          },
+          {
+            "name": "int_cod_reg",
+            "title": "int_cod_reg",
+            "type": "number",
+            "format": "number",
+            "count": 234
+          },
+          {
+            "name": "int_desc_circ",
+            "title": "int_desc_circ",
+            "type": "string",
+            "format": "string",
+            "count": 234
+          },
+          {
+            "name": "int_cod_circ",
+            "title": "int_cod_circ",
+            "type": "number",
+            "format": "number",
+            "count": 234
+          },
+          {
+            "name": "int_desc_prov",
+            "title": "int_desc_prov",
+            "type": "string",
+            "format": "string",
+            "count": 234
+          },
+          {
+            "name": "int_cod_prov",
+            "title": "int_cod_prov",
+            "type": "number",
+            "format": "number",
+            "count": 234
+          },
+          {
+            "name": "int_desc_com",
+            "title": "int_desc_com",
+            "type": "string",
+            "format": "string",
+            "count": 234
+          },
+          {
+            "name": "int_cod_com",
+            "title": "int_cod_com",
+            "type": "number",
+            "format": "number",
+            "count": 234
+          }
+        ],
+        "primaryKey": "_link"
+      },
+      "path": "csv/main.csv"
+    },
+    {
+      "profile": "tabular-data-resource",
+      "name": "liste",
+      "flatterer_name": "liste",
+      "title": "liste",
+      "schema": {
+        "fields": [
+          {
+            "name": "_link",
+            "title": "_link",
+            "type": "string",
+            "format": "string",
+            "count": 4513
+          },
+          {
+            "name": "_link_main",
+            "title": "_link_main",
+            "type": "string",
+            "format": "string",
+            "count": 4513
+          },
+          {
+            "name": "cod",
+            "title": "cod",
+            "type": "number",
+            "format": "number",
+            "count": 4513
+          },
+          {
+            "name": "desc",
+            "title": "desc",
+            "type": "string",
+            "format": "string",
+            "count": 4513
+          },
+          {
+            "name": "img_lis_c",
+            "title": "img_lis_c",
+            "type": "string",
+            "format": "string",
+            "count": 4513
+          },
+          {
+            "name": "sez_perv",
+            "title": "sez_perv",
+            "type": "number",
+            "format": "number",
+            "count": 4513
+          },
+          {
+            "name": "sez_tot",
+            "title": "sez_tot",
+            "type": "number",
+            "format": "number",
+            "count": 4513
+          }
+        ],
+        "primaryKey": "_link",
+        "foreignKeys": [
+          {
+            "fields": "_link_main",
+            "reference": {
+              "resource": "main",
+              "fields": "_link"
+            }
+          }
+        ]
+      },
+      "path": "csv/liste.csv"
+    },
+    {
+      "profile": "tabular-data-resource",
+      "name": "cand",
+      "flatterer_name": "cand",
+      "title": "cand",
+      "schema": {
+        "fields": [
+          {
+            "name": "_link",
+            "title": "_link",
+            "type": "string",
+            "format": "string",
+            "count": 34947
+          },
+          {
+            "name": "_link_main",
+            "title": "_link_main",
+            "type": "string",
+            "format": "string",
+            "count": 34947
+          },
+          {
+            "name": "cod_lis",
+            "title": "cod_lis",
+            "type": "number",
+            "format": "number",
+            "count": 34947
+          },
+          {
+            "name": "cod_cand",
+            "title": "cod_cand",
+            "type": "number",
+            "format": "number",
+            "count": 34947
+          },
+          {
+            "name": "cogn",
+            "title": "cogn",
+            "type": "string",
+            "format": "string",
+            "count": 34947
+          },
+          {
+            "name": "nome",
+            "title": "nome",
+            "type": "string",
+            "format": "string",
+            "count": 34947
+          },
+          {
+            "name": "a_nome",
+            "title": "a_nome",
+            "type": "string",
+            "format": "string",
+            "count": 34947
+          },
+          {
+            "name": "sex",
+            "title": "sex",
+            "type": "string",
+            "format": "string",
+            "count": 34947
+          },
+          {
+            "name": "d_nasc",
+            "title": "d_nasc",
+            "type": "number",
+            "format": "number",
+            "count": 34947
+          },
+          {
+            "name": "l_nasc",
+            "title": "l_nasc",
+            "type": "string",
+            "format": "string",
+            "count": 34947
+          },
+          {
+            "name": "voti",
+            "title": "voti",
+            "type": "number",
+            "format": "number",
+            "count": 34947
+          }
+        ],
+        "primaryKey": "_link",
+        "foreignKeys": [
+          {
+            "fields": "_link_main",
+            "reference": {
+              "resource": "main",
+              "fields": "_link"
+            }
+          }
+        ]
+      },
+      "path": "csv/cand.csv"
+    }
+  ]
+}
