@@ -19,7 +19,7 @@ if [ -f "${folder}"/../dati/affluenza_comuni.jsonl ]; then
   rm "${folder}"/../dati/affluenza_comuni.jsonl
 fi
 
-find "${folder}"/../dati/comune/ -name "*.json" | while read -r file; do
+find "${folder}"/../dati/comune/ -name "affluenza_comune_*.json" | while read -r file; do
   filename=$(basename "$file" .json)
   jq -c '.enti as $enti |
        $enti.enti_f[] as $sezione |  # Itera su tutte le sezioni
@@ -51,6 +51,8 @@ mlr --jsonl cut -f minint_elettorale,com_istat_code "${folder}"/../riferimenti/c
 mlr --jsonl join --ul -j minint_elettorale -f "${folder}"/../dati/affluenza_comuni.jsonl then unsparsify then put '$percentuale_votanti=sub($percentuale_votanti,",",".");$percentuale_tornata_precedente=sub(string($percentuale_tornata_precedente),",",".")' "${folder}"/tmp/comuni_07_minint.jsonl >"${folder}"/tmp/affluenza_comuni.jsonl
 
 sed -i -r 's/####+//g' "${folder}"/tmp/affluenza_comuni.jsonl
+
+mlr -I --jsonl put '$percentuale_votanti=float($percentuale_votanti);' "${folder}"/tmp/affluenza_comuni.jsonl
 
 mv "${folder}"/tmp/affluenza_comuni.jsonl "${folder}"/../dati/affluenza_comuni.jsonl
 
