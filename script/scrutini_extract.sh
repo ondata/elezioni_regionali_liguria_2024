@@ -41,7 +41,7 @@ mlr --csv --from "${folder}"/../dati/scrutini_comuni_principale.csv cut -f _link
 
 mlr --csv join --ul -j _link_main -f "${folder}"/../dati/comune/scrutini_risultati/csv/cand.csv then unsparsify "${folder}"/tmp/scrutini_risultati/scrutini_comuni_principale_ref.csv >"${folder}"/../dati/scrutini_comuni_candidati.csv
 
-mlr -I --csv  put '$perc=sub(string($perc),",",".");$perc_lis=sub(string($perc_lis),",",".")' "${folder}"/../dati/scrutini_comuni_candidati.csv
+mlr -I --csv  put '$perc=sub(string($perc),",",".");$perc_lis=sub(string($perc_lis),",",".")' then sort -t "_link_main","pos" "${folder}"/../dati/scrutini_comuni_candidati.csv
 
 ## liste
 
