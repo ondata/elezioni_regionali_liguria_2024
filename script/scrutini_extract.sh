@@ -42,3 +42,15 @@ mlr --csv --from "${folder}"/../dati/scrutini_comuni_principale.csv cut -f _link
 mlr --csv join --ul -j _link_main -f "${folder}"/../dati/comune/scrutini_risultati/csv/cand.csv then unsparsify "${folder}"/tmp/scrutini_risultati/scrutini_comuni_principale_ref.csv >"${folder}"/../dati/scrutini_comuni_candidati.csv
 
 mlr -I --csv  put '$perc=sub(string($perc),",",".");$perc_lis=sub(string($perc_lis),",",".")' "${folder}"/../dati/scrutini_comuni_candidati.csv
+
+## liste
+
+mlr --csv --from "${folder}"/../dati/comune/scrutini_risultati/csv/cand.csv cut -f _link,_link_main,cogn,nome then label _link_cand >"${folder}"/tmp/scrutini_risultati/scrutini_comuni_candidati_ref.csv
+
+mlr --csv join --ul -j _link_main -f "${folder}"/tmp/scrutini_risultati/scrutini_comuni_candidati_ref.csv then unsparsify "${folder}"/tmp/scrutini_risultati/scrutini_comuni_principale_ref.csv >"${folder}"/tmp/scrutini_risultati/scrutini_comuni_principale_ref_cand.csv
+
+mlr --csv filter -x 'is_null($pos)' "${folder}"/../dati/comune/scrutini_risultati/csv/cand_liste.csv >"${folder}"/tmp/scrutini_risultati/cand_liste.csv
+
+mlr --csv join --ul -j _link_cand -f "${folder}"/tmp/scrutini_risultati/cand_liste.csv then unsparsify then sort -t _link_cand,link "${folder}"/tmp/scrutini_risultati/scrutini_comuni_principale_ref_cand.csv >"${folder}"/../dati/scrutini_comuni_liste.csv
+
+mlr -I --csv  put '$perc=sub(string($perc),",",".")' then sort -t _link_main,pos "${folder}"/../dati/scrutini_comuni_liste.csv
