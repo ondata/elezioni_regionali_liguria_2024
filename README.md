@@ -59,6 +59,8 @@ Ci scusiamo per non riuscire a pubblicare subito una descrizione di dettaglio de
 
 ### Guenter Richter
 
+Grazie [Guenter](https://www.linkedin.com/in/guenter-richter-9b13b4/)!
+
 Scrutini con piramidi proporzionali al numero dei votanti.
 
 [![](imgs/01.png)](https://gjrichter.github.io/pages/Elections/Italy/Regionali/Liguria/2024/scrutini_candidati_alpha_peak.html)
