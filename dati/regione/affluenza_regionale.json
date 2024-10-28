@@ -7,7 +7,7 @@
     "dt_ele": 20241027000000,
     "l_terr": "REGIONE",
     "area": "I",
-    "dt_agg": 20241028201251
+    "dt_agg": 20241028223330
   },
   "note": [
     "La percentuale riportata nella colonna della precedente elezione è sempre riferita a tutte le sezioni del comune."
@@ -16,9 +16,9 @@
     "ente_p": {
       "desc": "LIGURIA",
       "cod": 7,
-      "ele_m": 642771,
+      "ele_m": 642772,
       "ele_f": 698921,
-      "ele_t": 1341692,
+      "ele_t": 1341693,
       "com": [
         {
           "cod_reg": 7,
@@ -66,9 +66,9 @@
           "enti_p": 1785,
           "enti_t": 1785,
           "perc": "45,97",
-          "vot_m": 297939,
-          "vot_f": 318800,
-          "vot_t": 616739,
+          "vot_m": 297945,
+          "vot_f": 318799,
+          "vot_t": 616744,
           "perc_r": "53,42"
         }
       ]
@@ -78,9 +78,9 @@
         "tipo": "PROVINCIA",
         "desc": "GENOVA",
         "cod": 34,
-        "ele_m": 348488,
+        "ele_m": 348489,
         "ele_f": 383526,
-        "ele_t": 732014,
+        "ele_t": 732015,
         "com_vot": [
           {
             "com": 1,
@@ -121,9 +121,9 @@
             "enti_p": 964,
             "enti_t": 964,
             "perc": "48,30",
-            "vot_m": 169935,
-            "vot_f": 183649,
-            "vot_t": 353584,
+            "vot_m": 169937,
+            "vot_f": 183650,
+            "vot_t": 353587,
             "perc_r": "53,48"
           }
         ]
@@ -175,9 +175,9 @@
             "enti_p": 255,
             "enti_t": 255,
             "perc": "38,11",
-            "vot_m": 33190,
-            "vot_f": 35026,
-            "vot_t": 68216,
+            "vot_m": 33191,
+            "vot_f": 35024,
+            "vot_t": 68215,
             "perc_r": "50,20"
           }
         ]
@@ -229,9 +229,9 @@
             "enti_p": 258,
             "enti_t": 258,
             "perc": "47,23",
-            "vot_m": 43068,
+            "vot_m": 43071,
             "vot_f": 45163,
-            "vot_t": 88231,
+            "vot_t": 88234,
             "perc_r": "54,16"
           }
         ]
