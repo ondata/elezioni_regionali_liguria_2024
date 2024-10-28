@@ -107,6 +107,5 @@ done
 echo "Dati scrutini scaricati con successo."
 
 exit 0
-jq -s '.' scrutini_risultati_comune*
 
-https://eleapi.interno.gov.it/siel/PX/scrutiniR/DE/20241027/TE/07/RE/07/PR/034/CM/0250/SZ/0653
+https://eleapi.interno.gov.it/siel/PX/scrutiniR/DE/20241027/TE/07/RE/07/PR/034/CM/0250/SZ/0001
