@@ -40,3 +40,11 @@ La tabella è composta dai seguenti campi:
 | percentuale_tornata_precedente | Percentuale di affluenza alle urne nel turno precedente (al momento non presente) | float |  |
 | file | Nome del file dei dati (nota interna onData) | string | affluenza_comune_037_0010 |
 | com_istat_code | Codice ISTAT del Comune | string | 008001 |
+
+### Scrutini
+
+Abbiamo pubblicato tre tabelle, con taglio comunale:
+
+- [`scrutini_comuni_principale.csv`](dati/scrutini_comuni_principale.csv), in cui per ogni Comune sono presenti dei valori di insieme come le schede bianche (campo `int_sk_bianche`), le nulle (campo `int_sk_nulle`). Il nome del Comune è in `int_desc_com`, mentre il codice Istat del Comune è in `com_istat_code`.
+- [`scrutini_comuni_candidati.csv`](dati/scrutini_comuni_candidati.csv), in cui per ogni Comune riportati i dati sulle persone che si sono candidate alla presidenza della Regione Liguria. Il codice Istat del Comune è in `com_istat_code`;
+- [`scrutini_comuni_liste.csv`](dati/scrutini_comuni_liste.csv), in cui per ogni Comune riportati i dati sulle liste che appoggiano le varie candidature alla presidenza. Il codice Istat del Comune è in `com_istat_code`.
