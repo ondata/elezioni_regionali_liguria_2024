@@ -54,3 +54,19 @@ Abbiamo pubblicato tre tabelle in formato CSV, con taglio comunale:
 Il separatore dei decimali è il punto, e la codifica dei caratteri è UTF-8.
 
 Ci scusiamo per non riuscire a pubblicare subito una descrizione di dettaglio delle tabelle.
+
+## Chi ha usato queste mappe
+
+### Guenter Richter
+
+Scrutini con piramidi proporzionali al numero dei votanti.
+
+[![](imgs/01.png)](https://gjrichter.github.io/pages/Elections/Italy/Regionali/Liguria/2024/scrutini_candidati_alpha_peak.html)
+
+Mappa coropletica con l'intensità del colore proporzionale al numero dei votanti per km².
+
+[![](imgs/02.png)](https://gjrichter.github.io/pages/Elections/Italy/Regionali/Liguria/2024/scrutini_candidati_alpha.html)
+
+Mappa a bolle con la grandezza proporzionale alla percentuale di votanti.
+
+[![](imgs/03.png)](https://gjrichter.github.io/pages/Elections/Italy/Regionali/Liguria/2024/scrutini_candidati_alpha_symbol.html)
