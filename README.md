@@ -55,7 +55,7 @@ Il separatore dei decimali è il punto, e la codifica dei caratteri è UTF-8.
 
 Ci scusiamo per non riuscire a pubblicare subito una descrizione di dettaglio delle tabelle.
 
-## Chi ha usato queste mappe
+## Chi ha usato questi dati
 
 ### Guenter Richter
 
