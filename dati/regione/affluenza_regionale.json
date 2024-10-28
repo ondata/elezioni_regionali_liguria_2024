@@ -7,7 +7,7 @@
     "dt_ele": 20241027000000,
     "l_terr": "REGIONE",
     "area": "I",
-    "dt_agg": 20241028153557
+    "dt_agg": 20241028201251
   },
   "note": [
     "La percentuale riportata nella colonna della precedente elezione è sempre riferita a tutte le sezioni del comune."
@@ -16,9 +16,9 @@
     "ente_p": {
       "desc": "LIGURIA",
       "cod": 7,
-      "ele_m": 642767,
-      "ele_f": 698919,
-      "ele_t": 1341686,
+      "ele_m": 642771,
+      "ele_f": 698921,
+      "ele_t": 1341692,
       "com": [
         {
           "cod_reg": 7,
@@ -63,12 +63,12 @@
         {
           "com": 4,
           "dt_com": 20241028150000,
-          "enti_p": 1764,
+          "enti_p": 1785,
           "enti_t": 1785,
-          "perc": "45,93",
-          "vot_m": 294349,
-          "vot_f": 314930,
-          "vot_t": 609279,
+          "perc": "45,97",
+          "vot_m": 297939,
+          "vot_f": 318800,
+          "vot_t": 616739,
           "perc_r": "53,42"
         }
       ]
@@ -78,9 +78,9 @@
         "tipo": "PROVINCIA",
         "desc": "GENOVA",
         "cod": 34,
-        "ele_m": 348485,
+        "ele_m": 348488,
         "ele_f": 383526,
-        "ele_t": 732011,
+        "ele_t": 732014,
         "com_vot": [
           {
             "com": 1,
@@ -118,12 +118,12 @@
           {
             "com": 4,
             "dt_com": 20241028150000,
-            "enti_p": 951,
+            "enti_p": 964,
             "enti_t": 964,
-            "perc": "48,24",
-            "vot_m": 167566,
-            "vot_f": 181009,
-            "vot_t": 348575,
+            "perc": "48,30",
+            "vot_m": 169935,
+            "vot_f": 183649,
+            "vot_t": 353584,
             "perc_r": "53,48"
           }
         ]
@@ -172,13 +172,13 @@
           {
             "com": 4,
             "dt_com": 20241028150000,
-            "enti_p": 254,
+            "enti_p": 255,
             "enti_t": 255,
-            "perc": "38,10",
-            "vot_m": 33025,
-            "vot_f": 34867,
-            "vot_t": 67892,
-            "perc_r": "50,18"
+            "perc": "38,11",
+            "vot_m": 33190,
+            "vot_f": 35026,
+            "vot_t": 68216,
+            "perc_r": "50,20"
           }
         ]
       },
@@ -186,9 +186,9 @@
         "tipo": "PROVINCIA",
         "desc": "LA SPEZIA",
         "cod": 39,
-        "ele_m": 90386,
-        "ele_f": 96413,
-        "ele_t": 186799,
+        "ele_m": 90387,
+        "ele_f": 96415,
+        "ele_t": 186802,
         "com_vot": [
           {
             "com": 1,
@@ -229,9 +229,9 @@
             "enti_p": 258,
             "enti_t": 258,
             "perc": "47,23",
-            "vot_m": 43066,
+            "vot_m": 43068,
             "vot_f": 45163,
-            "vot_t": 88229,
+            "vot_t": 88231,
             "perc_r": "54,16"
           }
         ]
@@ -280,12 +280,12 @@
           {
             "com": 4,
             "dt_com": 20241028150000,
-            "enti_p": 301,
+            "enti_p": 308,
             "enti_t": 308,
-            "perc": "43,78",
-            "vot_m": 50692,
-            "vot_f": 53891,
-            "vot_t": 104583,
+            "perc": "43,76",
+            "vot_m": 51746,
+            "vot_f": 54962,
+            "vot_t": 106708,
             "perc_r": "55,10"
           }
         ]
