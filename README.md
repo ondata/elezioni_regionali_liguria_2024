@@ -84,3 +84,8 @@ Lista (partitica) con maggiore risultato e intensità = densità votanti.
 Lista (partitica) con maggiore risultato relativo a se stesso - dove il patito e relativamente forte.
 
 [![](imgs/06.png)](https://gjrichter.github.io/pages/Elections/Italy/Regionali/Liguria/2024/scrutini_liste_percentofmean.html)
+
+### SkyTG24
+
+"Liguria, la vittoria del centrodestra spiegata in tre mappe", di Raffaele Mastrolonardo:<br>
+<https://tg24.sky.it/politica/2024/10/29/elezioni-liguria-vittoria-bucci-mappe>
