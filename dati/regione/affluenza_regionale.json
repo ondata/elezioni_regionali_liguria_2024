@@ -7,7 +7,7 @@
     "dt_ele": 20241027000000,
     "l_terr": "REGIONE",
     "area": "I",
-    "dt_agg": 20241028223330
+    "dt_agg": 20241029000601
   },
   "note": [
     "La percentuale riportata nella colonna della precedente elezione è sempre riferita a tutte le sezioni del comune."
@@ -66,9 +66,9 @@
           "enti_p": 1785,
           "enti_t": 1785,
           "perc": "45,97",
-          "vot_m": 297945,
-          "vot_f": 318799,
-          "vot_t": 616744,
+          "vot_m": 297947,
+          "vot_f": 318801,
+          "vot_t": 616748,
           "perc_r": "53,42"
         }
       ]
@@ -121,9 +121,9 @@
             "enti_p": 964,
             "enti_t": 964,
             "perc": "48,30",
-            "vot_m": 169937,
-            "vot_f": 183650,
-            "vot_t": 353587,
+            "vot_m": 169938,
+            "vot_f": 183651,
+            "vot_t": 353589,
             "perc_r": "53,48"
           }
         ]
@@ -175,9 +175,9 @@
             "enti_p": 255,
             "enti_t": 255,
             "perc": "38,11",
-            "vot_m": 33191,
-            "vot_f": 35024,
-            "vot_t": 68215,
+            "vot_m": 33192,
+            "vot_f": 35025,
+            "vot_t": 68217,
             "perc_r": "50,20"
           }
         ]
