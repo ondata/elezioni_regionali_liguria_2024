@@ -72,3 +72,15 @@ Mappa coropletica con l'intensità del colore proporzionale al numero dei votant
 Mappa a bolle con la grandezza proporzionale alla percentuale di votanti.
 
 [![](imgs/03.png)](https://gjrichter.github.io/pages/Elections/Italy/Regionali/Liguria/2024/scrutini_candidati_alpha_symbol.html)
+
+Lista (partitica) con maggiore risultato e altezza = numero votanti.
+
+[![](imgs/04.png)](https://gjrichter.github.io/pages/Elections/Italy/Regionali/Liguria/2024/scrutini_liste_alpha_peak.html)
+
+Lista (partitica) con maggiore risultato e intensità = densità votanti.
+
+[![](imgs/05.png)](https://gjrichter.github.io/pages/Elections/Italy/Regionali/Liguria/2024/scrutini_liste_dominante_alpha.html)
+
+Lista (partitica) con maggiore risultato relativo a se stesso - dove il patito e relativamente forte.
+
+[![](imgs/06.png)](https://gjrichter.github.io/pages/Elections/Italy/Regionali/Liguria/2024/scrutini_liste_percentofmean.html)
