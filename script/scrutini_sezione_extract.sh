@@ -23,3 +23,5 @@ mlr -S -I --csv --from "${folder}"/../dati/sezione/scrutini_sezioni_risultati/cs
 mlr -S -I --csv --from "${folder}"/../dati/sezione/scrutini_sezioni_risultati/csv/cand.csv put '$perc=sub($perc,",",".");$perc_lis=sub($perc_lis,",",".")'
 
 mlr -S -I --csv --from "${folder}"/../dati/sezione/scrutini_sezioni_risultati/csv/cand_liste.csv put '$perc=sub($perc,",",".")'
+
+mv "${folder}"/../dati/sezione/scrutini_sezioni_risultati "${folder}"/../dati/scrutini_sezioni_risultati
